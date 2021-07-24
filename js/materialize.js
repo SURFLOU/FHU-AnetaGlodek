@@ -5037,7 +5037,6 @@ $jscomp.polyfill = function (e, r, p, m) {
       element.addEventListener('mouseleave', Effect.hide, false);
       element.addEventListener('dragend', Effect.hide, false);
     }
-    e.preventDefault();
   }
 
   Waves.displayEffect = function (options) {
