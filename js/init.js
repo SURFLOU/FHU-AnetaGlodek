@@ -6,11 +6,6 @@
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
-
-document.querySelector('.white').addEventListener("mousedown", (e) => {
-  e.preventDefault();
-});
-
 $('.click').click(function(e){
   // prevent default action
   e.preventDefault();
